@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { SidebarData, MediaLinks } from './sideBarData'
 import './Navbar.css'
 
-function Navbar () {
+function SideBar () {
   return (
     <nav className='nav-menu active'>
       <ul className='nav-menu-items'>
@@ -38,4 +38,4 @@ function Navbar () {
   )
 }
 
-export default Navbar
+export default SideBar

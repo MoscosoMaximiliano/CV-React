@@ -14,8 +14,8 @@ function AboutMe() {
           4 years of experience in Unity and 6 years of experience in general programming.</p>
         
       </div>
-      <div class="photo">
-        <img src={profilePic}></img>
+      <div className="photo">
+        <img src={profilePic} alt="Image Profile"></img>
       </div>
     </div>
   );
