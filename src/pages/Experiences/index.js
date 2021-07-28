@@ -2,7 +2,7 @@ import React from 'react';
 
 function Experiences() {
   return (
-    <div className='home'>
+    <div className='contentPage'>
       <h1>Experiences</h1>
     </div>
   );

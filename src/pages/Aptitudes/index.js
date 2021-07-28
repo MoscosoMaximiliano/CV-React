@@ -2,7 +2,7 @@ import React from 'react';
 
 function Aptitudes() {
   return (
-    <div className='home'>
+    <div className='contentPage'>
       <h1>Aptitudes</h1>
     </div>
   );

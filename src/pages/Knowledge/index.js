@@ -2,7 +2,7 @@ import React from 'react';
 
 function Knowledge() {
   return (
-    <div className='home'>
+    <div className='contentPage'>
       <h1>Knowledge</h1>
     </div>
   );

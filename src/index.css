@@ -1,7 +1,12 @@
 body {
-  background-color: #2D142C;
+  background-color: #222831;
   margin: 0;
   font-family: 'Saira Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #ffff;
+}
+
+.contentPage {
+  padding: 0 100px 0 280px;
 }

@@ -62,22 +62,22 @@ export const MediaLinks = [
     cName: 'socialMediaIcon'
   },
   {
-    link: 'https://twitter.com/MoscosoMaxi',
+    link: 'https://www.youtube.com/channel/UCZKCL_YUKV4ComQ83yXDhvA',
     icon: <FaYoutube/>,
     cName: 'socialMediaIcon'
   },
   {
-    link: 'https://twitter.com/MoscosoMaxi',
+    link: 'https://github.com/MoscosoMaximiliano',
     icon: <FaGithub/>,
     cName: 'socialMediaIcon'
   },
   {
-    link: 'https://twitter.com/MoscosoMaxi',
+    link: 'https://www.instagram.com/maxi_moscoso/?hl=es',
     icon: <FaInstagram/>,
     cName: 'socialMediaIcon'
   },
   {
-    link: 'https://twitter.com/MoscosoMaxi',
+    link: 'https://www.linkedin.com/in/maximiliano-moscoso-773155181/',
     icon: <FaLinkedinIn/>,
     cName: 'socialMediaIcon'
   }
