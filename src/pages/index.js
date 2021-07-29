@@ -1,6 +1,3 @@
 export {default as AboutMe} from './AboutMe'
-export {default as Aptitudes} from './Aptitudes'
 export {default as Contact} from './Contact'
-export {default as Experiences} from './Experiences'
-export {default as Knowledge} from './Knowledge'
 export {default as Portfolio} from './Portfolio'

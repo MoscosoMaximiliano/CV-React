@@ -118,6 +118,7 @@ span {
   }
 
   .socialMedias {
+    display: none;
     width: auto;
     margin: 0;
     padding: 0;
@@ -155,6 +156,7 @@ span {
   }
 
   .navbar-buttons a:first-child {
+    
     width: 100%;
     justify-content: center;
     display: flex;
@@ -162,6 +164,7 @@ span {
   }
 
   .navbar-nav > li:last-child {
+    display: none;
     margin-left: auto;
     text-align: center;
     margin: 0;
