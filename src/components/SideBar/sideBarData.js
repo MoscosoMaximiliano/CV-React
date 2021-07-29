@@ -22,63 +22,63 @@ export const SidebarData = [
     title: 'About Me',
     path: '/',
     icon: <VscAccount />,
-    cName: 'nav-text'
+    cName: 'navbar-buttons'
   },
   {
     title: 'Knowledge',
     path: '/knowledge',
     icon: <VscExtensions />,
-    cName: 'nav-text'
+    cName: 'navbar-buttons'
   },
   {
     title: 'Portfolio',
     path: '/portfolio',
     icon: <VscSymbolColor />,
-    cName: 'nav-text'
+    cName: 'navbar-buttons'
   },
   {
     title: 'Aptitudes',
     path: '/aptitudes',
     icon: <VscThumbsup />,
-    cName: 'nav-text'
+    cName: 'navbar-buttons'
   },
   {
     title: 'Experiences',
     path: '/experiences',
     icon: <VscWatch />,
-    cName: 'nav-text'
+    cName: 'navbar-buttons'
   },
   {
     title: 'Contact Me',
     path: '/contact',
     icon: <VscCommentDiscussion />,
-    cName: 'nav-text'
+    cName: 'navbar-buttons'
   }
 ];
 export const MediaLinks = [
   {
     link: 'https://twitter.com/MoscosoMaxi',
     icon: <FaTwitter/>,
-    cName: 'socialMediaIcon'
+    cName: 'navbar-socialMediaIcon'
   },
   {
     link: 'https://www.youtube.com/channel/UCZKCL_YUKV4ComQ83yXDhvA',
     icon: <FaYoutube/>,
-    cName: 'socialMediaIcon'
+    cName: 'navbar-socialMediaIcon'
   },
   {
     link: 'https://github.com/MoscosoMaximiliano',
     icon: <FaGithub/>,
-    cName: 'socialMediaIcon'
+    cName: 'navbar-socialMediaIcon'
   },
   {
     link: 'https://www.instagram.com/maxi_moscoso/?hl=es',
     icon: <FaInstagram/>,
-    cName: 'socialMediaIcon'
+    cName: 'navbar-socialMediaIcon'
   },
   {
     link: 'https://www.linkedin.com/in/maximiliano-moscoso-773155181/',
     icon: <FaLinkedinIn/>,
-    cName: 'socialMediaIcon'
+    cName: 'navbar-socialMediaIcon'
   }
 ]

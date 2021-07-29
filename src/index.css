@@ -10,3 +10,16 @@ body {
 .contentPage {
   padding: 0 100px 0 280px;
 }
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #393e46;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ee4540;
+  border-radius: 12px;
+}

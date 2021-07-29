@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 import { SidebarData, MediaLinks } from './sideBarData'
 import './Navbar.css'
 
-function SideBar () {
+function SideBar() {
   return (
-    <nav className='nav-menu active'>
-      <ul className='nav-menu-items'>
+    <nav className='navbar'>
+      <ul className='navbar-nav'>
         <div className='socialMedias'>
           <span>Social Medias</span>
           <ul className='socialMediaLinks'>
@@ -32,8 +32,14 @@ function SideBar () {
             </li>
           )
         })}
+        <li>
+          <p className="footer-p">Made with ♥ by
+            <strong>
+              <a href='https://github.com/MoscosoMaximiliano/CV-React' target="noreferrer"> Maxi Moscoso</a>
+            </strong>
+          </p>
+        </li>
       </ul>
-      <p className="footer-p">Made with ♥ by <strong><a href='https://github.com/MoscosoMaximiliano/CV-React' target="noreferrer">Maxi Moscoso</a></strong></p> 
     </nav>
   )
 }
