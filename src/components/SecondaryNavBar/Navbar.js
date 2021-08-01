@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import { HeaderWrapper, NavbarWrapper } from './NavbarElements.styled'
 import { Link } from 'react-router-dom'
 
-
-import MenuButton from './MenuButton'
-
 const Navbar = () => {
     const [open, setOpen] = useState(false)
 
@@ -25,7 +22,6 @@ const Navbar = () => {
                     Contact Me
                 </Link>
             </NavbarWrapper>
-            {/* <MenuButton open={open} handleClick={handleClick} /> */}
         </HeaderWrapper>
     );
 }

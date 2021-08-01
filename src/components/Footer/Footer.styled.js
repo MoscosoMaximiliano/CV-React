@@ -4,8 +4,10 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     background-color: ${({theme}) => theme.primary};
+    position: relative;
     width: 100%;
     padding: .85rem 0;
+    left: 0;
     bottom: 0;
     display: flex;
     justify-content: space-between;
