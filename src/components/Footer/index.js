@@ -17,27 +17,25 @@ import {
   FaLinkedinIn
 } from "react-icons/fa";
 
-import { FaAngleDoubleRight } from 'react-icons/fa'
-
 const Footer = () => {
   return (
     <Container>
       <SocialMedias>
-        <p>Social Medias</p>
+        <p>Social Media</p>
         <LinksMedia>
-          <Link href=''>
+          <Link href='https://twitter.com/MoscosoMaxi'>
             <FaTwitter />
           </Link>
-          <Link href=''>
+          <Link href='https://www.youtube.com/channel/UCZKCL_YUKV4ComQ83yXDhvA'>
             <FaYoutube />
           </Link>
-          <Link href=''>
+          <Link href='https://github.com/MoscosoMaximiliano'>
             <FaGithub />
           </Link>
-          <Link href=''>
+          <Link href='https://www.instagram.com/maxi_moscoso/?hl=es'>
             <FaInstagram />
           </Link>
-          <Link href=''>
+          <Link href='https://www.linkedin.com/in/maximiliano-moscoso-773155181/'>
             <FaLinkedinIn />
           </Link>
         </LinksMedia>

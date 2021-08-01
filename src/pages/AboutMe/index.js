@@ -1,9 +1,15 @@
 import React from 'react';
 import profilePic from '../../assets/profile1.png'
 
-import {AboutMeS, Header, Description, Photo} from './aboutMe.styled'
+import { AboutMeS, Header, Description, Photo } from './aboutMe.styled'
+
+import moment from 'moment'
 
 function AboutMe() {
+  const GetDate = (date) => {
+    let today = moment().format('yyyy')
+    return today - date
+  }
   return (
     <AboutMeS>
       <Header>
@@ -18,8 +24,12 @@ function AboutMe() {
             alt="Maximiliano Moscoso Face"
           />
         </Photo>
-        <p>Born in Río Grande, Tierra Del Fuego, Argentina. 23 years old. Currently studying software development.
-          4 years of experience in Unity and 6 years of experience in general programming.</p>
+        <p>
+          Born in Río Grande, Tierra Del Fuego, Argentina.
+          &nbsp;{GetDate(1997)} years old.
+          Currently studying software development.
+          &nbsp;{GetDate(2019)} years of experience in Unity and
+          &nbsp;{GetDate(2018)} years of experience in general programming.</p>
       </Description>
     </AboutMeS>
   );

@@ -25,7 +25,7 @@ const Navbar = () => {
                     Contact Me
                 </Link>
             </NavbarWrapper>
-            <MenuButton open={open} handleClick={handleClick} />
+            {/* <MenuButton open={open} handleClick={handleClick} /> */}
         </HeaderWrapper>
     );
 }

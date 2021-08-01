@@ -9,6 +9,14 @@ export const AboutMeS = styled.div`
 
     p {
         text-align: center;
+        padding: 2rem 0 0 0;
+    }
+
+    @media only screen and (min-width: 768px) {
+        p {
+            font-size: 2rem;
+            padding: 1rem 2rem;
+        }
     }
 `
 
@@ -18,6 +26,7 @@ export const Header = styled.div`
     align-items: center;
     justify-content: center;
     font-size: 16px;
+    margin-top: 5rem;
 
     h1, h2, h3, h4 {
         color: ${({theme}) => theme.primary};
@@ -25,21 +34,25 @@ export const Header = styled.div`
         padding: 0;
     }
 
+    strong {
+        color : ${({theme}) => theme.white};
+    }
+
     @media only screen and (min-width: 768px) {
+        margin-top: 0;
         h1 {
             font-size: 6rem;
         }
     }
 
-    strong {
-        color : ${({theme}) => theme.white};
-    }
+    
 `
 
 export const Description = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem 0 0 0
 `
 
 export const Photo = styled.div`
