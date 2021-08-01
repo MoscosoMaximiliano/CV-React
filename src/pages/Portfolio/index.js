@@ -8,7 +8,7 @@ import { Container } from './Portfolio.styled'
 function Portfolio() {
   const [myGames, setmyGames] = useState('')
 
-  const API_URL_GAMES = "/my-games"
+  const API_URL_GAMES = "https://itch.io/api/1/GOa743x33Nn3Y4le535R3Z02sTeVraJh70Uwflfs/my-games"
 
   const GetGames = () => {
     console.log("Trying to get games")
