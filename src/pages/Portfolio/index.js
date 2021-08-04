@@ -20,6 +20,7 @@ function Portfolio() {
 
   useEffect(() => {
     GetGames()
+    
   }, [])
 
   return (
