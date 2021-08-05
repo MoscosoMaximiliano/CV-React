@@ -9,7 +9,8 @@ export const Container = styled.div`
     border-radius: 25px;
 
     @media only screen and (min-width: 768px) {
-        margin-bottom: 12.3rem;
+        height: 85vh;
+        margin: 1rem;
     }
 `
 
@@ -27,6 +28,7 @@ export const FormStyled = styled.form`
 export const FormSection = styled.div`
     display: flex;
     flex-direction: column;
+    height: 100%;
 `
 
 export const LabelText = styled.label`
@@ -78,7 +80,7 @@ export const TextArea = styled.textarea`
 
     @media only screen and (min-width: 768px) {
         font-size: 2rem;
-        height: 300px;
+        
 
         &::placeholder {
             font-size: 1.5rem;
