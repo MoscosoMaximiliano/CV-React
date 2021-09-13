@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { HeaderWrapper, NavbarWrapper } from './NavbarElements.styled'
 import { Link } from 'react-router-dom'
 
+
 const Navbar = () => {
     const [open, setOpen] = useState(false)
 

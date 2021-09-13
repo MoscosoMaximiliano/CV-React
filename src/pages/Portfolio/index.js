@@ -4,16 +4,20 @@ import Card from '../../components/SimpleCard'
 import axios from "axios"
 
 import { Container } from './Portfolio.styled'
+import SkeletonLoading from './Skeleton'
 
 function Portfolio() {
 
   const [myGames, setmyGames] = useState({})
+  const [loading, setLoading] = useState(false)
 
   const GetGames = () => {
     console.log("Trying to get games")
+    setLoading(true)
     return axios('https://cvreactapi.herokuapp.com/')
       .then((response) => {
         setmyGames(response.data.games)
+        setLoading(false)
       })
       .catch(error => console.log(`Error: ${error}`))
   }
@@ -23,9 +27,12 @@ function Portfolio() {
     
   }, [])
 
+  console.log(myGames === undefined)
+
   return (
     <Container>
       {
+        (loading) ? <SkeletonLoading /> : 
         Object.keys(myGames).map(index => 
             <Card
             key={index}
